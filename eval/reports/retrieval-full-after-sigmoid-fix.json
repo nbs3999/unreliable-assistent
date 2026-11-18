@@ -1,0 +1,630 @@
+{
+  "summary": {
+    "backend": "full",
+    "queries": 39,
+    "answerable": 33,
+    "unanswerable": 6,
+    "pool_recall_answerable": 1.0,
+    "precision_at_4": 0.2348,
+    "mrr_at_4": 0.8485,
+    "ndcg_at_4": 0.825,
+    "abstention_accuracy_negatives": 1.0,
+    "decision_accuracy_all": 0.8718,
+    "latency_ms_p95": 23407.85,
+    "degraded": [],
+    "by_category_decision_accuracy": {
+      "factoid": 1.0,
+      "reasoning": 0.5714,
+      "multi_hop": 1.0,
+      "summary": 0.5,
+      "negative": 1.0
+    }
+  },
+  "rows": [
+    {
+      "id": "q01",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.5,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "returns-policy-001",
+        "returns-policy-001"
+      ],
+      "latency_ms": 19487.7,
+      "degraded": []
+    },
+    {
+      "id": "q02",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "warranty-policy-002"
+      ],
+      "latency_ms": 18680.57,
+      "degraded": []
+    },
+    {
+      "id": "q03",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "shipping-policy-003"
+      ],
+      "latency_ms": 18039.09,
+      "degraded": []
+    },
+    {
+      "id": "q04",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "privacy-retention-004"
+      ],
+      "latency_ms": 19367.61,
+      "degraded": []
+    },
+    {
+      "id": "q05",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "expense-policy-005"
+      ],
+      "latency_ms": 21889.99,
+      "degraded": []
+    },
+    {
+      "id": "q06",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "remote-work-policy-006"
+      ],
+      "latency_ms": 19076.71,
+      "degraded": []
+    },
+    {
+      "id": "q07",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "travel-policy-007"
+      ],
+      "latency_ms": 18508.31,
+      "degraded": []
+    },
+    {
+      "id": "q08",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "leave-policy-008"
+      ],
+      "latency_ms": 19581.64,
+      "degraded": []
+    },
+    {
+      "id": "q09",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "password-policy-009"
+      ],
+      "latency_ms": 18585.58,
+      "degraded": []
+    },
+    {
+      "id": "q10",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "incident-reporting-sop-003"
+      ],
+      "latency_ms": 20225.32,
+      "degraded": []
+    },
+    {
+      "id": "q11",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "lockout-tagout-sop-002"
+      ],
+      "latency_ms": 19379.62,
+      "degraded": []
+    },
+    {
+      "id": "q12",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "supplier-audit-sop-004"
+      ],
+      "latency_ms": 19350.8,
+      "degraded": []
+    },
+    {
+      "id": "q13",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "catalog-sku-120"
+      ],
+      "latency_ms": 19205.81,
+      "degraded": []
+    },
+    {
+      "id": "q14",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "catalog-sku-045"
+      ],
+      "latency_ms": 19682.79,
+      "degraded": []
+    },
+    {
+      "id": "q15",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "expense-policy-005"
+      ],
+      "latency_ms": 19749.28,
+      "degraded": []
+    },
+    {
+      "id": "q16",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.5,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "returns-policy-001",
+        "returns-policy-001"
+      ],
+      "latency_ms": 20512.37,
+      "degraded": []
+    },
+    {
+      "id": "q17",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "password-policy-009"
+      ],
+      "latency_ms": 40752.11,
+      "degraded": []
+    },
+    {
+      "id": "q18",
+      "category": "factoid",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "catalog-sku-120"
+      ],
+      "latency_ms": 20090.11,
+      "degraded": []
+    },
+    {
+      "id": "q19",
+      "category": "reasoning",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": false,
+      "returned_notes": [],
+      "latency_ms": 21775.93,
+      "degraded": []
+    },
+    {
+      "id": "q20",
+      "category": "reasoning",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "warranty-policy-002"
+      ],
+      "latency_ms": 19381.72,
+      "degraded": []
+    },
+    {
+      "id": "q21",
+      "category": "reasoning",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "leave-policy-008"
+      ],
+      "latency_ms": 20922.05,
+      "degraded": []
+    },
+    {
+      "id": "q22",
+      "category": "reasoning",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "remote-work-policy-006"
+      ],
+      "latency_ms": 20061.74,
+      "degraded": []
+    },
+    {
+      "id": "q23",
+      "category": "reasoning",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": false,
+      "returned_notes": [],
+      "latency_ms": 19240.85,
+      "degraded": []
+    },
+    {
+      "id": "q24",
+      "category": "reasoning",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": false,
+      "returned_notes": [],
+      "latency_ms": 20764.75,
+      "degraded": []
+    },
+    {
+      "id": "q25",
+      "category": "reasoning",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "shipping-policy-003"
+      ],
+      "latency_ms": 20177.38,
+      "degraded": []
+    },
+    {
+      "id": "q26",
+      "category": "multi_hop",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "privacy-retention-004"
+      ],
+      "latency_ms": 24638.09,
+      "degraded": []
+    },
+    {
+      "id": "q27",
+      "category": "multi_hop",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "catalog-sku-120"
+      ],
+      "latency_ms": 21714.32,
+      "degraded": []
+    },
+    {
+      "id": "q28",
+      "category": "multi_hop",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.5,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "warranty-policy-002",
+        "catalog-sku-099"
+      ],
+      "latency_ms": 22668.78,
+      "degraded": []
+    },
+    {
+      "id": "q29",
+      "category": "multi_hop",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 0.6131471927654584,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "lockout-tagout-sop-002"
+      ],
+      "latency_ms": 23407.85,
+      "degraded": []
+    },
+    {
+      "id": "q30",
+      "category": "summary",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": false,
+      "returned_notes": [],
+      "latency_ms": 20928.56,
+      "degraded": []
+    },
+    {
+      "id": "q31",
+      "category": "summary",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 0.6131471927654584,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "catalog-sku-120"
+      ],
+      "latency_ms": 21572.07,
+      "degraded": []
+    },
+    {
+      "id": "q32",
+      "category": "summary",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": false,
+      "returned_notes": [],
+      "latency_ms": 21298.88,
+      "degraded": []
+    },
+    {
+      "id": "q33",
+      "category": "summary",
+      "answerable": true,
+      "pool_recall": 1.0,
+      "precision_at_4": 0.25,
+      "mrr_at_4": 1.0,
+      "ndcg_at_4": 1.0,
+      "abstained": false,
+      "decision_correct": true,
+      "returned_notes": [
+        "sop-batch-safety-001"
+      ],
+      "latency_ms": 19731.89,
+      "degraded": []
+    },
+    {
+      "id": "q34",
+      "category": "negative",
+      "answerable": false,
+      "pool_recall": 0.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": true,
+      "returned_notes": [],
+      "latency_ms": 18943.51,
+      "degraded": []
+    },
+    {
+      "id": "q35",
+      "category": "negative",
+      "answerable": false,
+      "pool_recall": 0.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": true,
+      "returned_notes": [],
+      "latency_ms": 17765.58,
+      "degraded": []
+    },
+    {
+      "id": "q36",
+      "category": "negative",
+      "answerable": false,
+      "pool_recall": 0.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": true,
+      "returned_notes": [],
+      "latency_ms": 20399.81,
+      "degraded": []
+    },
+    {
+      "id": "q37",
+      "category": "negative",
+      "answerable": false,
+      "pool_recall": 0.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": true,
+      "returned_notes": [],
+      "latency_ms": 18946.52,
+      "degraded": []
+    },
+    {
+      "id": "q38",
+      "category": "negative",
+      "answerable": false,
+      "pool_recall": 0.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": true,
+      "returned_notes": [],
+      "latency_ms": 18617.06,
+      "degraded": []
+    },
+    {
+      "id": "q39",
+      "category": "negative",
+      "answerable": false,
+      "pool_recall": 0.0,
+      "precision_at_4": 0.0,
+      "mrr_at_4": 0.0,
+      "ndcg_at_4": 0.0,
+      "abstained": true,
+      "decision_correct": true,
+      "returned_notes": [],
+      "latency_ms": 12782.52,
+      "degraded": []
+    }
+  ]
+}

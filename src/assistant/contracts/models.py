@@ -138,6 +138,6 @@ class QueryResponse(StrictModel):
     status: str  # ok | abstained | pending_approval | refused | degraded
     answer: str
     sources: list[ResponseSource] = Field(default_factory=list)
-    mode: str = "extractive"  # no LLM client in this build; see README
+    mode: str = "extractive"  # "generated" when an LLM provider answered; see deployment.md
     degraded: list[str] = Field(default_factory=list)
     timings_ms: dict[str, float] = Field(default_factory=dict)

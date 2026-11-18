@@ -21,13 +21,27 @@ class StubEncoder:
 
 
 class StubCrossEncoder:
-    """Scores by word overlap, returns raw logits to exercise the sigmoid."""
-    def predict(self, pairs, show_progress_bar=False):
+    """Scores by word overlap. Mirrors the real CrossEncoder.predict contract: returns raw
+    logits when activation_fn is Identity, and sigmoid probabilities by default."""
+    def predict(self, pairs, show_progress_bar=False, activation_fn=None):
         logits = []
         for q, t in pairs:
             overlap = len(set(q.lower().split()) & set(t.lower().split()))
             logits.append(overlap - 1.0)  # 1 shared word -> p=0.5 (passes 0.42), 0 -> p=0.27
-        return np.array(logits)
+        logits = np.array(logits, dtype="float32")
+        if activation_fn is None:  # real default: already a probability
+            return 1.0 / (1.0 + np.exp(-logits))
+        return logits
+
+
+def test_cross_encoder_sigmoid_is_applied_once_to_raw_logits():
+    # Regression for gaps.md Phase 3: logit 0 must map to 0.5, not to sigmoid(sigmoid(0)).
+    class ZeroLogit:
+        def predict(self, pairs, show_progress_bar=False, activation_fn=None):
+            assert activation_fn is not None, "must request raw logits"
+            return np.zeros(len(pairs), dtype="float32")
+    scores = CrossEncoderReranker(model=ZeroLogit()).score("q", ["a", "b"])
+    assert scores == [0.5, 0.5]
 
 
 def test_dense_index_returns_best_match_first():

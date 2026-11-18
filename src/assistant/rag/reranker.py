@@ -22,6 +22,10 @@ def lexical_rerank_score(query: str, text: str) -> float:
     return len(q_terms & set(tokenize(text))) / len(q_terms)
 
 
+def _identity(x):
+    return x
+
+
 class Reranker(Protocol):
     name: str
     def score(self, query: str, texts: list[str]) -> list[float]: ...
@@ -38,7 +42,11 @@ class CrossEncoderReranker:
     def score(self, query: str, texts: list[str]) -> list[float]:
         if not texts:
             return []
-        logits = self.model.predict([(query, t) for t in texts], show_progress_bar=False)
+        # Ask for raw logits. CrossEncoder.predict applies a sigmoid by default, and applying
+        # ours on top squashes every score into ~0.5-0.73, so the 0.42 abstention gate never
+        # fires (see gaps.md, Phase 3). Sigmoid is applied exactly once, here.
+        logits = self.model.predict([(query, t) for t in texts], show_progress_bar=False,
+                                    activation_fn=_identity)
         return [1.0 / (1.0 + math.exp(-float(x))) for x in logits]
 
 

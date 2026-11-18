@@ -4,3 +4,8 @@ __pycache__/
 *.egg-info/
 .venv/
 graph/graph.json
+
+# Secrets: API key bindings and environment files (deployment.md)
+.env
+.env.*
+*api_keys*.json
