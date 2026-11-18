@@ -1,0 +1,39 @@
+{"id": "q01", "category": "factoid", "question": "How many days do I have to return a product?", "relevant_notes": ["returns-policy-001"]}
+{"id": "q02", "category": "factoid", "question": "How long is the warranty on valves?", "relevant_notes": ["warranty-policy-002"]}
+{"id": "q03", "category": "factoid", "question": "How long does express shipping take?", "relevant_notes": ["shipping-policy-003"]}
+{"id": "q04", "category": "factoid", "question": "How long are support transcripts kept?", "relevant_notes": ["privacy-retention-004"]}
+{"id": "q05", "category": "factoid", "question": "When does a expense claim need manager approval?", "relevant_notes": ["expense-policy-005"]}
+{"id": "q06", "category": "factoid", "question": "How many days per week can I work remotely?", "relevant_notes": ["remote-work-policy-006"]}
+{"id": "q07", "category": "factoid", "question": "Is economy class required for flights?", "relevant_notes": ["travel-policy-007"]}
+{"id": "q08", "category": "factoid", "question": "How many annual leave days do full-time employees get?", "relevant_notes": ["leave-policy-008"]}
+{"id": "q09", "category": "factoid", "question": "What is the minimum password length?", "relevant_notes": ["password-policy-009"]}
+{"id": "q10", "category": "factoid", "question": "How quickly must a safety incident be reported to the supervisor?", "relevant_notes": ["incident-reporting-sop-003"]}
+{"id": "q11", "category": "factoid", "question": "Who may remove a lock applied during lockout?", "relevant_notes": ["lockout-tagout-sop-002"]}
+{"id": "q12", "category": "factoid", "question": "How often are critical suppliers audited on site?", "relevant_notes": ["supplier-audit-sop-004"]}
+{"id": "q13", "category": "factoid", "question": "What pressure is SKU-120 rated for?", "relevant_notes": ["catalog-sku-120"]}
+{"id": "q14", "category": "factoid", "question": "Can gaskets be reused after disassembly?", "relevant_notes": ["catalog-sku-045"]}
+{"id": "q15", "category": "factoid", "question": "How long do I have to submit an expense claim?", "relevant_notes": ["expense-policy-005"]}
+{"id": "q16", "category": "factoid", "question": "Are Refund requests processed within how many days?", "relevant_notes": ["returns-policy-001"]}
+{"id": "q17", "category": "factoid", "question": "How many password changes are blocked by reuse rules?", "relevant_notes": ["password-policy-009"]}
+{"id": "q18", "category": "factoid", "question": "What is the maintenance interval for the transfer pump?", "relevant_notes": ["catalog-sku-120"]}
+{"id": "q19", "category": "reasoning", "question": "If I return a valve after 40 days, can I still get a refund?", "relevant_notes": ["returns-policy-001"]}
+{"id": "q20", "category": "reasoning", "question": "Does the warranty cover damage caused by corrosion?", "relevant_notes": ["warranty-policy-002"]}
+{"id": "q21", "category": "reasoning", "question": "Can an employee on a 2-day sick absence need a doctor's note?", "relevant_notes": ["leave-policy-008"]}
+{"id": "q22", "category": "reasoning", "question": "Can I use my personal laptop to reach production systems?", "relevant_notes": ["remote-work-policy-006"]}
+{"id": "q23", "category": "reasoning", "question": "Is a 5 hour flight allowed in premium economy?", "relevant_notes": ["travel-policy-007"]}
+{"id": "q24", "category": "reasoning", "question": "A supplier has an open critical finding. Can we place a new purchase order?", "relevant_notes": ["supplier-audit-sop-004"]}
+{"id": "q25", "category": "reasoning", "question": "Can I ship hazardous goods by air freight?", "relevant_notes": ["shipping-policy-003"]}
+{"id": "q26", "category": "multi_hop", "question": "What must happen to a customer's records after they stop ordering, and how fast are deletion requests handled?", "relevant_notes": ["privacy-retention-004"]}
+{"id": "q27", "category": "multi_hop", "question": "Which SKU has a 316 stainless housing and what maintenance interval applies to it?", "relevant_notes": ["catalog-sku-120"]}
+{"id": "q28", "category": "multi_hop", "question": "What is the warranty period for SKU-099 and which code do I need to claim it?", "relevant_notes": ["warranty-policy-002", "catalog-sku-099"]}
+{"id": "q29", "category": "multi_hop", "question": "What is the energy isolation step before servicing pressurized equipment and how is an incident reported afterward?", "relevant_notes": ["lockout-tagout-sop-002", "incident-reporting-sop-003"]}
+{"id": "q30", "category": "summary", "question": "Summarize the rules for working remotely and using company devices.", "relevant_notes": ["remote-work-policy-006"]}
+{"id": "q31", "category": "summary", "question": "Summarize how valves and pumps are identified and tracked by lot.", "relevant_notes": ["catalog-sku-099", "catalog-sku-120"]}
+{"id": "q32", "category": "summary", "question": "What are the main rules for expenses and reimbursements?", "relevant_notes": ["expense-policy-005"]}
+{"id": "q33", "category": "summary", "question": "What does the batch safety verification require?", "relevant_notes": ["sop-batch-safety-001"]}
+{"id": "q34", "category": "negative", "question": "What is the current stock price of the company?", "relevant_notes": []}
+{"id": "q35", "category": "negative", "question": "Who won the football match last weekend?", "relevant_notes": []}
+{"id": "q36", "category": "negative", "question": "What is the warranty on forklift batteries?", "relevant_notes": []}
+{"id": "q37", "category": "negative", "question": "What is the parking policy for the Berlin office?", "relevant_notes": []}
+{"id": "q38", "category": "negative", "question": "What is the dental insurance coverage for employees?", "relevant_notes": []}
+{"id": "q39", "category": "negative", "question": "What is the annual budget for marketing events?", "relevant_notes": []}
