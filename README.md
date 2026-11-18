@@ -11,7 +11,7 @@ An enterprise AI assistant that answers staff and customer questions from compan
 | [docs/workflow_orchestration.png](docs/workflow_orchestration.png) | Gate 2 workflow diagram (rendered from Graphviz) |
 | [docs/adr/](docs/adr/) | Architecture Decision Records (ADR-01 to ADR-04) |
 | [deployment.md](deployment.md) | Deployment guide: what runs, API keys, configuration, container build |
-| [gaps.md](gaps.md) | Implementation gap analysis against design.md and the Audit |
+
 
 Read `design.md` before changing any behavior. Read `workflow.md` before starting a phase.
 
